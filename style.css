@@ -1,0 +1,189 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background: #dadada;
+}
+
+.header {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  border-bottom: 2px solid black;
+}
+
+.header-left {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header-right {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.header-right .btn {
+  height: 60px;
+  width: 250px;
+  background: white;
+  margin-right: 30px;
+  display: flex;
+  border-radius: 40px;
+}
+
+.btn > h4 {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.btn > button {
+  width: 200px;
+  margin-left: 20px;
+  border-radius: 40px;
+  color: white;
+  background: black;
+}
+
+.outer {
+  height: 85%;
+  width: 100%;
+  display: flex;
+}
+
+.left {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-div {
+  height: 550px;
+  width: 800px;
+  border-radius: 10px;
+  background-image: url(https://media.istockphoto.com/id/922189094/vector/mockup-template-for-branding-and-product-designs-isolated-realistic-plastic-bottles-with.jpg?s=612x612&w=0&k=20&c=tp_zc_vJHWJSd4MfOMQQ5KXAql5ksmoLvm9GyxVV4oY=);
+  background-size: cover;
+  background-position: center;
+}
+
+.left-top {
+  height: 70%;
+  width: 100%;
+  padding: 40px;
+}
+
+.left-top > h1 {
+  font-size: 70px;
+  font-weight: 650;
+  color: white;
+}
+
+.left-top > p {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
+.left-bottom {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.left-bottom-left {
+  height: 70px;
+  width: 250px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+.left-bottom-left .line {
+  height: 50px;
+  width: 2px;
+  background: gray;
+}
+
+.left-bottom-right {
+  height: 50px;
+  width: 50px;
+  margin-left: 270px;
+}
+
+.left-bottom-right > i {
+  font-size: 50px;
+  color: white;
+}
+
+.right {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.right .right-div1 {
+  height: 250px;
+  width: 400px;
+  background-image: url(https://images.unsplash.com/photo-1628582358192-cbab4a91945b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.right .right-div1 > p {
+  margin-top: 100px;
+}
+
+.right .right-div1 > p > i {
+  font-size: 30px;
+}
+
+.right .right-div2 {
+  height: 250px;
+  width: 400px;
+  background-image: url(https://plus.unsplash.com/premium_photo-1670426500263-f8bf41b5afef?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.right .right-div2 > span:nth-child(2) {
+  margin-left: 140px;
+}
+
+.right .right-div2 > span > i {
+  font-size: 25px;
+}
+
+.right .right-div2 > h1 {
+  margin-top: 140px;
+}
